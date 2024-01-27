@@ -3,7 +3,7 @@
 This repository contains detailed notebooks to showcase the following capabilities of OpenAI:
 * [Function Calling with Chat Completions API](./function_calling.ipynb)
 * [Embeddings](./embeddings.ipynb)
-* [Fine-Tunning](./fine_tuning.ipynb)
+* [Fine-Tuning](./fine_tuning.ipynb)
 
 # Installation
 This project is tested in Python 3.12.1 and openai python library 1.9.0.

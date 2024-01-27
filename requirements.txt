@@ -1,0 +1,10 @@
+openai
+scipy
+Pyarrow
+pandas
+tiktoken
+scikit-learn
+numpy
+matplotlib
+plotly
+nbformat

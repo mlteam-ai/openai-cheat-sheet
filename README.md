@@ -1,6 +1,6 @@
 # OpenAI Cheat Sheet
 # Overview
-In this tutorial, we'll try to some sample codes to showcase the usage of:
+This repository contains detailed notebooks to showcase the following capabilities of OpenAI:
 * [Function Calling with Chat Completions API](./function_calling.ipynb)
 * [Embeddings](./embeddings.ipynb)
 * [Fine-Tunning](./fine_tuning.ipynb)
@@ -15,8 +15,10 @@ Here is a sample '.env' file:
 OPENAI_API_KEY=12345
 ```
 ## 2. Installing the dependencies
-Open a terminal window, change your working directory to [openai-cheat-sheet](.), run the following commands. This will create and activate a virtual environment (called 'env') and install all the dependencies into it. You need to use this Pthon environment as the kernel, when running your Jupiter Notebooks.
+Open a terminal window, change your working directory to [openai-cheat-sheet](.), run the following commands. This will create and activate a virtual environment (called 'env') and install all the dependencies into it. You need to use this Python environment as the kernel, when running your Jupiter Notebooks.
 ```sh
     chmod +x setup.sh
     ./setup.sh
 ```
+## 3. Getting sample data set 
+When you want to run [embeddings notebook](./embeddings.ipynb), you will need [Amazon fine-food reviews dataset](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews). Go to web site, download 'Reviews.csv' file and save under [data](./data) folder.

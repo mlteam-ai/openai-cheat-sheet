@@ -8,3 +8,4 @@ numpy
 matplotlib
 plotly
 nbformat
+pydub

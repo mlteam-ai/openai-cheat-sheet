@@ -7,10 +7,11 @@ This repository contains detailed notebooks to showcase the following capabiliti
 * [Image Generation](./image_generation.ipynb)
 * [Image Processing](./image_processing.ipynb)
 * [Text to Speech](./text_to_speech.ipynb)
-
+* [Speech to Text](./speech_to_text.ipynb)
 
 # Installation
 This project is tested in Python 3.12.1 and openai python library 1.11.0.
+
 ## 1. Setting up the '.env' file
 You need to subscribe to [OpenAI](https://platform.openai.com/docs/quickstart/account-setup), configure your [billing settings](https://platform.openai.com/account/billing/overview), get your API key and create an '.env' file containing 'OPENAI_API_KEY'.
 

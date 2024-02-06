@@ -9,6 +9,10 @@ This repository contains detailed notebooks to showcase the following capabiliti
 * [Text to Speech](./text_to_speech.ipynb)
 * [Speech to Text](./speech_to_text.ipynb)
 * [Moderation](./moderation.ipynb)
+* [Assistants](./assistants.ipynb) and [Tools](./assistant_tools.ipynb) that you can use with Assistants
+    * Code Interpreter
+    * Knowledge Retrieval
+    * Function Calling
 
 # Installation
 This project is tested in Python 3.12.1 and openai python library 1.11.0.

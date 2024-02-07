@@ -18,4 +18,4 @@ jobs:
     - name: Test Notebooks
       env: 
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: pytest --nbval-lax
+      run: pytest --nbval-lax -v 8_moderation.ipynb

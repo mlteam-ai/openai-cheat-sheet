@@ -1,15 +1,15 @@
 # OpenAI Cheat Sheet
 # Overview
 This repository contains detailed notebooks to showcase the following capabilities of OpenAI:
-* [Function Calling with Chat Completions API](./function_calling.ipynb)
-* [Embeddings](./embeddings.ipynb)
-* [Fine-Tuning](./fine_tuning.ipynb)
-* [Image Generation](./image_generation.ipynb)
-* [Image Processing](./image_processing.ipynb)
-* [Text to Speech](./text_to_speech.ipynb)
-* [Speech to Text](./speech_to_text.ipynb)
-* [Moderation](./moderation.ipynb)
-* [Assistants](./assistants.ipynb) and [Tools](./assistant_tools.ipynb) that you can use with Assistants
+* [Function Calling with Chat Completions API](./01_function_calling.ipynb)
+* [Embeddings](./02_embeddings.ipynb)
+* [Fine-Tuning](./03_fine_tuning.ipynb)
+* [Image Generation](./04_image_generation.ipynb)
+* [Image Processing](./05_image_processing.ipynb)
+* [Text to Speech](./06_text_to_speech.ipynb)
+* [Speech to Text](./07_speech_to_text.ipynb)
+* [Moderation](./08_moderation.ipynb)
+* [Assistants](./09_assistants.ipynb) and [Tools](./10_assistant_tools.ipynb) that you can use with Assistants
     * Code Interpreter
     * Knowledge Retrieval
     * Function Calling

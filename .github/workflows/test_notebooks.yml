@@ -20,4 +20,4 @@ jobs:
     - name: Test Notebooks
       env: 
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: pytest --nbval-lax -v 03_fine_tuning.ipynb
+      run: pytest --nbval-lax -v 04_image_generation.ipynb

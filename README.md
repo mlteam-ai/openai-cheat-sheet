@@ -30,5 +30,3 @@ Open a terminal window, change your working directory to [openai-cheat-sheet](.)
     chmod +x setup.sh
     ./setup.sh
 ```
-## 3. Getting sample data set 
-When you want to run [embeddings notebook](./embeddings.ipynb), you will need [Amazon fine-food reviews dataset](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews). Go to web site, download 'Reviews.csv' file and save under [data](./data) folder.

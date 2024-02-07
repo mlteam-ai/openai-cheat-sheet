@@ -12,14 +12,14 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.12.1'
-    - name: Install dependencies
+    - name: Install Dependencies
       run: |
         pip install -r requirements.txt
-    - name: Create the 'output' folder
+    - name: Create 'output' Folder
       run: mkdir -p output
-    - name: Install ffmpeg
+    - name: Install FFmpeg
       run: sudo apt-get install -y ffmpeg
     - name: Test Notebooks
       env: 
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: pytest --nbval-lax -v 06_text_to_speech.ipynb
+      run: pytest --nbval-lax -v 07_speech_to_text.ipynb

@@ -9,3 +9,6 @@ matplotlib
 plotly
 nbformat
 pydub
+
+pytest
+nbval

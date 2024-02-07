@@ -2,6 +2,7 @@ name: Test Notebooks
 on:
   schedule:
     - cron: '0 5 * * *'
+  workflow_dispatch:  # Allows manual trigger
 jobs:
   test:
     runs-on: ubuntu-latest

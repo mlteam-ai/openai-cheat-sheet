@@ -17,6 +17,8 @@ jobs:
         pip install -r requirements.txt
     - name: Create the 'output' folder
       run: mkdir -p output
+    - name: Install ffmpeg
+      run: sudo apt-get install -y ffmpeg
     - name: Test Notebooks
       env: 
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

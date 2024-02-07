@@ -22,4 +22,4 @@ jobs:
     - name: Test Notebooks
       env: 
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: pytest --nbval-lax -v 07_speech_to_text.ipynb
+      run: pytest --nbval-lax

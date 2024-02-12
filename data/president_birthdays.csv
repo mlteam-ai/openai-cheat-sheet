@@ -1,0 +1,46 @@
+"Index", "Name", "Day", "Month", "Year"
+ 1, "George Washington",	22, 2, 1732
+ 2, "John Adams", 30, 10, 1735
+ 3, "Thomas Jefferson",	13, 4, 1743
+ 4, "James Madison", 16, 3, 1751
+ 5, "James Monroe", 28, 4, 1758
+ 6, "John Quincy Adams",	11, 7, 1767
+ 7, "Andrew Jackson",	15, 3, 1767
+ 8, "Martin Van Buren", 5, 12, 1782
+ 9, "William Henry Harrison", 9, 2, 1773
+10, "John Tyler", 29, 3, 1790
+11, "James K. Polk", 2, 11. 1795
+12, "Zachary Taylor", 24, 11, 1784
+13, "Millard Fillmore", 7, 1, 1800
+14, "Franklin Pierce", 23, 11, 1804
+15, "James Buchanan", 23, 4, 1791
+16, "Abraham Lincoln", 12, 2, 1809
+17, "Andrew Johnson", 29, 12, 1808
+18, "Ulysses S. Grant", 27, 4, 1822
+19, "Rutherford B. Hayes", 4, 10, 1822
+20, "James A. Garfield", 19, 11, 1831
+21, "Chester A. Arthur", 5, 10, 1829
+22, "Grover Cleveland", 18, 3, 1837
+23, "Benjamin Harrison", 20, 8, 1833
+24, "Grover Cleveland", 18, 3, 1837
+25, "William McKinley", 29, 1, 1843
+26, "Theodore Roosevelt", 27, 10, 1858
+27, "William Howard Taft", 15, 9, 1857
+28, "Woodrow Wilson", 28, 12, 1856
+29, "Warren G. Harding", 2, 11, 1865
+30, "Calvin Coolidge", 4, 7, 1872
+31, "Herbert Hoover", 10, 8, 1874
+32, "Franklin D. Roosevelt", 30, 1, 1882
+33, "Harry S Truman", 8, 5, 1884
+34, "Dwight D. Eisenhower", 14, 10, 1890
+35, "John Kennedy", 29, 5, 1917
+36, "Lyndon B. Johnson", 27, 8, 1908
+37, "Richard M. Nixon", 9, 1, 1913
+38, "Gerald R. Ford",	14, 7, 1913
+39, "Jimmy Carter", 1, 10, 1924
+40, "Ronald Reagan", 6, 2, 1911
+41, "George H. W. Bush", 12, 6, 1924
+42, "William J. Clinton", 19, 8, 1946
+43, "George W. Bush", 6, 6, 1946
+44, "Barack Hussein Obama", 4, 8, 1961
+45, "Donald Trump", 14, 6, 1946

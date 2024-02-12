@@ -1,0 +1,8 @@
+older:
+  id: older.dev.v0
+  description: Test the model's ability to determine who is older.
+  metrics: [accuracy]
+older.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: older/samples.jsonl

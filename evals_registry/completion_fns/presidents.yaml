@@ -1,0 +1,17 @@
+cot/gpt-4-turbo-preview:
+  class: evals.completion_fns.cot:ChainOfThoughtCompletionFn
+  args:
+    cot_completion_fn: gpt-4-turbo-preview
+
+retrieval/presidents/gpt-4-turbo-preview:
+  class: evals.completion_fns.retrieval:RetrievalCompletionFn
+  args:
+    completion_fn: gpt-4-turbo-preview
+    embeddings_and_text_path: ../../output/presidents_embeddings.csv
+    k: 2
+
+retrieval/presidents/cot/gpt-4-turbo-preview:
+  class: evals.completion_fns.retrieval:RetrievalCompletionFn
+  args:
+    completion_fn: cot/gpt-4-turbo-preview
+    embeddings_and_text_path: ../../output/presidents_embeddings.csv

@@ -13,6 +13,7 @@ This repository contains detailed notebooks to showcase the following capabiliti
     * Code Interpreter
     * Knowledge Retrieval
     * Function Calling
+* [Evaluation framework of OpenAI](./11_evals.ipynb)
 
 # Installation
 This project is tested in Python 3.12.1 and openai python library 1.11.0.

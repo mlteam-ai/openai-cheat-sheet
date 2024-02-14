@@ -12,5 +12,3 @@ pydub
 
 pytest
 nbval
-
-evals

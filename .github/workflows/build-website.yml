@@ -6,6 +6,10 @@ on:
     #  - main
   workflow_dispatch:  # Allows manual trigger
 
+permissions:
+  contents: write
+  #pages: write
+
 jobs:
   convert-to-html:
     runs-on: ubuntu-latest

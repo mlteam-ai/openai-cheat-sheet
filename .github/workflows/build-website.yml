@@ -33,6 +33,10 @@ jobs:
             jupyter nbconvert --to html $notebook --output-dir docs
           done
 
+      - name: Generate Index HTML
+        run: |
+          python generate_index.py
+
       - name: Commit and Push changes
         run: |
           git config --global user.name 'GitHub Actions'

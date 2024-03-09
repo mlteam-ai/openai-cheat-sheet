@@ -22,9 +22,6 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Create 'html_output' Folder
-        run: mkdir -p html_output
-
       - name: Convert Notebooks to HTML
         run: |
           mkdir -p docs
@@ -34,9 +31,12 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add docs/*
-          git commit -m "Update HTML files" -a
-          git push
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git checkout --orphan gh-pages
+          git rm -rf .
+          cp -r docs/* .
+          git add .
+          git commit -m "Deploy HTML files"
+          git push origin gh-pages --force
     

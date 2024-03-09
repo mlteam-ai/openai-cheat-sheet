@@ -5,7 +5,7 @@ on:
     branches:
       - main
   workflow_dispatch:  # Allows manual trigger
-  
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -27,7 +27,16 @@ jobs:
 
       - name: Convert Notebooks to HTML
         run: |
-          mkdir html_outputs
+          mkdir -p docs
           for notebook in *.ipynb; do
-            jupyter nbconvert --to html $notebook --output-dir html_outputs
+            jupyter nbconvert --to html $notebook --output-dir docs
           done
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/*
+          git commit -m "Update HTML files" -a
+          git push
+    

@@ -1,9 +1,9 @@
 name: Generate Blog Pages
 
 on:
-  #push:
-   # branches:
-    #  - main
+  push:
+    branches:
+      - main
   workflow_dispatch:  # Allows manual trigger
 
 permissions:

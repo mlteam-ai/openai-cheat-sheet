@@ -16,7 +16,7 @@ This repository contains detailed notebooks to showcase the following capabiliti
 * [Evaluation framework of OpenAI](./11_evals.ipynb)
 
 # Installation
-This project is tested in Python 3.12.1 and openai python library 1.11.0.
+This project is tested in Python 3.12.1 and openai python library 1.23.1.
 
 ## 1. Setting up the '.env' file
 You need to subscribe to [OpenAI](https://platform.openai.com/docs/quickstart/account-setup), configure your [billing settings](https://platform.openai.com/account/billing/overview), get your API key and create an '.env' file containing 'OPENAI_API_KEY'.

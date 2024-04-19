@@ -22,4 +22,4 @@ jobs:
     - name: Test Notebooks
       env: 
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: pytest --nbval-lax --nbval-cell-timeout=3600 10_assistant_tools.ipynb
+      run: pytest --nbval-lax --nbval-cell-timeout=3600

@@ -13,3 +13,4 @@ pydub
 pytest
 nbval
 nbconvert
+evals

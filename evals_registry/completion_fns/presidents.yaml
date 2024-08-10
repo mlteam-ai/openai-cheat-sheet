@@ -1,17 +1,17 @@
-cot/gpt-3.5:
+cot/gpt-4o-mini:
   class: evals.completion_fns.cot:ChainOfThoughtCompletionFn
   args:
-    cot_completion_fn: gpt-3.5-turbo
+    cot_completion_fn: gpt-4o-mini
 
-retrieval/presidents/gpt-3.5-turbo:
+retrieval/presidents/gpt-4o-mini:
   class: evals_registry.completion_fns.retrieval:MLRetrievalCompletionFn
   args:
-    completion_fn: gpt-3.5-turbo
+    completion_fn: gpt-4o-mini
     embeddings_and_text_path: output/presidents_embeddings.csv
     k: 2
 
-retrieval/presidents/cot/gpt-3.5-turbo:
+retrieval/presidents/cot/gpt-4o-mini:
   class: evals_registry.completion_fns.retrieval:MLRetrievalCompletionFn
   args:
-    completion_fn: cot/gpt-3.5
+    completion_fn: cot/gpt-4o-mini
     embeddings_and_text_path: output/presidents_embeddings.csv
